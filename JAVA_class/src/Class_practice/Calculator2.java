@@ -21,6 +21,9 @@ public class Calculator2 {
 		this.x = x;
 	}
 
+	//값을 가져오는 메서드 실행
+	//변수에 가져온 값을 저장하거나
+	//출력문에 바로 작성하여 출력
 	public int getY() {
 		return y;
 	}
@@ -42,5 +45,7 @@ public class Calculator2 {
 	public static void main(String[] args) {
 		Calculator2 cal1 = new Calculator2(2, 3);
 		cal1.itemList();
+		
+		
 	}
 }
