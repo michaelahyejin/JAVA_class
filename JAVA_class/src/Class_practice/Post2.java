@@ -33,10 +33,9 @@ public class Post2 {
 	}
 	
 	//총 게시글을 관리하는 클래스 변수를 선언하고, 이를 반환하는 클래스 메소드를 생성하고
-	public static int getTotalPost() {
-		return totalPost;
+	
 		
-	}
+	
 	
 	//게시글 정보를 출력하는 메서드 혹은 출력문 작성
 	public void totalPost() {
@@ -53,7 +52,7 @@ public class Post2 {
 	public static void main(String[] args) {
 		Post2 p1 = new Post2("객체와 클래스", "객체 생성과 클래스 변수 실습"); //게시글 객체를 생성하고
 		
-		p1.setPostId(1); 
+		
 	
 		
 	}
