@@ -34,6 +34,9 @@ public class MethodReturn {
 		String Greeting = getGreeting("홍길동");
 		System.out.println(Greeting);
 		
+		
+		//참조형 데이터 타입의 리턴 타입은 메서드가 객체(또는 배열 등)를 반환한다는 것을 의미
+		// 참조 타입은 실제 데이터가 저장된 메모리 주소를 반환하게 된다.
 		MethodReturn array = new MethodReturn();
 		int[] numbers = array.getNumbers();
 		System.out.println(numbers);
